@@ -7,7 +7,7 @@
 include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=LuCI support for KMS
-LUCI_DEPENDS:=+vlmcsd
+LUCI_DEPENDS:=+vlmcsd +luci-compat
 LUCI_PKGARCH:=all
 
 PKG_NAME:=luci-app-vlmcsd
